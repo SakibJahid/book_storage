@@ -23,21 +23,42 @@ A simple and efficient web application for managing a collection of books. This 
 
 To get this project up and running locally on your machine, follow these steps:
 
-1. Download zip from github
-2. Unzip and go to project folder
-- **or, 
-3. than open cmd and (composer install)
-4. open code editor with project folder
-5. than .env.example file rename .env
-6. setup database and give name as like my project
-7. go to cmd and type- php artisan migrate
-8. generate a app_key for .env file(write command-> php artisan key:generate
-9. than Command-> php artisan storage:link
-10. than run-> php artisan serve
-
-1. **Clone the repository**:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/book-information-system.git
+
+2. **Change directory:**
+   ```bash
    cd book_storage
 
+3. **Install dependencies:**
+   ```bash
+   composer install
+
+4. **open code editor with project folder than .env.example file rename .env:**
+
+5. **setup database and give name as like my project**
+
+6. **go to cmd and type:**
+   ```bash
+   php artisan migrate
+
+7. **generate a app_key for .env file:**
+   ```bash
+   php artisan key:generate
+
+8. **create symlink to your storage folder**
+   ```bash
+   php artisan storage:link
+
+9. **Run migrations and seed the database**
+   ```bash
+   php artisan migrate --seed
+
+10. **Serve the application:**
+   ```bash
+   php artisan serve
+
+
+   
 
