@@ -50,7 +50,7 @@ To get this project up and running locally on your machine, follow these steps:
    ```bash
    php artisan serve
 
-### Usage
+## Usage
 
 Create a Book: Add a new book by filling in the required fields (title, author, publisher, year).
 View Books: See the full list of added books on the dashboard.
@@ -58,7 +58,7 @@ Update Book: Edit the details of an existing book.
 Delete Book: Remove a book from the collection.
 
 
-### Contact
+## Contact
 <p style="font-size: 1.1em;">Feel free to contact me: <a href="sakibchy.bban.puc@example.com" style="color: #2196F3;">sakibchy.bban.puc@example.com</a>.</p>
 
 
