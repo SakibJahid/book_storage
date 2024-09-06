@@ -59,7 +59,8 @@ Delete Book: Remove a book from the collection.
 
 
 ## Contact
-<p style="font-size: 1.1em;">Feel free to contact me: <a href="sakibchy.bban.puc@gmail.com" style="color: #2196F3;">sakibchy.bban.puc@gmail.com</a>.</p>
+Feel free to contact me:
+- Email: `sakibchy.bban.puc@gmail.com`
 
 
    
